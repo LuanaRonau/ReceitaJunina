@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+}
+
+#apresentacao_receita {
+    background-color: #FEECE0;
+    display: flex;
+    flex-direction: row;
+    padding-left: 155px;
+    padding-top: 82px;
+    padding-bottom: 46px;
+    align-items: center;
+}
+
+#texto {
+    margin-left: 56px;
+}
+
+#porcoes_linha {
+    display: flex;
+    align-items: center;
+}
+
+h1, h2, h3 { 
+    font-family: Serif;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: bold;
+    color: #58190A;
+}
+
+h2 {
+    font-size: 34px;
+    color: #58190A;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 28px;
+    color:#9B6647;
+    font-weight: normal;
+    padding-right: 15px;
+}
+
+#subtitulo {
+    margin-top: 04px;
+    margin-bottom: 13px;
+}
+
+#qtdd {
+    font-size: 34px;
+    color:#9B6647;
+    margin: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.simbolo {
+    height: 32px;
+}
+
+
+#ingredientes_e_modo_de_preparo {
+    height: 50vh;
+    background-color: #9B6647;
+    display: flex;
+    justify-content: center;
+    padding-top: 74px;
+}
+
+#preparo {
+    margin-left: 64px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.titulo > h2 {
+    color: #FEECE0;
+    font-weight: 600;
+    padding-left: 11px;
+}
+
+.emoji {
+    height: 32px;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+li {
+    font-size: 24px;
+    color: #FEECE0;
+    font-family: Geneva, Tahoma, sans-serif;
+}
